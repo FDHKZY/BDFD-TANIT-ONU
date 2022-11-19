@@ -1,0 +1,41 @@
+```
+
+$nomention
+
+$argsCheck[>1;Kullanım: (bot prefixi) @username]
+
+$title[$username profil]
+
+$color[c0137d]
+
+$userInfo[
+
+Avatar: =======>
+
+Kullanıcı Adı:
+
+❀ {username}
+
+Tag:
+
+❀ #{discriminator}
+
+Kullanıcı ID:
+
+❀ {ID}
+
+Bot:
+
+❀ {BOT}
+
+Hesap Tarihi:
+
+❀ $creationDate[$mentioned[<]]
+
+$footer[Profil by: $username#$discriminator[$authorID]]
+
+$footerIcon[$authorAvatar]
+
+]
+
+```
